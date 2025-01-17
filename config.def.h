@@ -14,7 +14,7 @@ static const int showtab			= showtab_auto;        /* Default tab bar show mode *
 static const int toptab				= False;               /* False means bottom tab bar */
 
 static const char *fonts[]          = { "JetBrains Mono:size=12", "JoyPixels:pixelsize=12:antialias=true:autohint=true" };
-static const char dmenufont[]       = "JetBrains Mono:size=14";
+static const char dmenufont[]       = "JetBrains Mono:size=12";
 
 /* colors */
 #include "/home/solar/.cache/wal/colors-wal-dwm.h"
