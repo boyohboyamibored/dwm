@@ -64,9 +64,9 @@ static const char *sys_actions[] = { "sys_actions", NULL };
 
 // you can view the header file
 #include <X11/XF86keysym.h>
-static const char *vol_up[]   = { "/usr/bin/pactl", "set-sink-volume", "0", "+5%",     NULL };
-static const char *vol_down[] = { "/usr/bin/pactl", "set-sink-volume", "0", "-5%",     NULL };
-static const char *mutevol[] = { "/usr/bin/pactl", "set-sink-mute",   "0", "toggle",  NULL };
+static const char *vol_up[]   = { "/usr/bin/pamixer", "-i", "5",    NULL };
+static const char *vol_down[] = { "/usr/bin/pamixer", "-d", "5",     NULL };
+static const char *mutevol[] = { "/usr/bin/pamixer", "--toggle-mute",   NULL };
 
 static const char *prev[] = { "/usr/bin/playerctl", "previous", NULL };
 static const char *play_pause[] = { "/usr/bin/playerctl", "play-pause", NULL };
