@@ -11,10 +11,16 @@ dwm is an extremely fast, small, and dynamic window manager for X.
 - [move stack](https://dwm.suckless.org/patches/movestack/) -> move windows with Mod+Shift+J/K
 - [tab + pertag](https://dwm.suckless.org/patches/pertag/) -> allows for separate layout rules per tag
 - [preserve on restart](https://dwm.suckless.org/patches/preserveonrestart/) -> prevents clients mixing on tag 1
+- [dynamic scratchpad](https://dwm.suckless.org/patches/dynamicscratchpads/) -> adds dynamic scratpads
 
 ## Requirements
 
 In order to build dwm you need the Xlib header files.
+
+## Configuration
+
+The configuration of dwm is done by creating a custom config.h
+and (re)compiling the source code.
 
 ## Installation
 
@@ -49,8 +55,3 @@ like this in your .xinitrc:
     	sleep 1
     done &
     exec dwm
-
-## Configuration
-
-The configuration of dwm is done by creating a custom config.h
-and (re)compiling the source code.
