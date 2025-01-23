@@ -110,7 +110,7 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
-	{ MODKEY,                       XK_o,      winview,        {0} },
+	{ MODKEY,                       XK_u,      winview,        {0} },
 	{ MODKEY,                       XK_comma,   scratchpad_show, {0} },
 	{ MODKEY,                       XK_period,  scratchpad_hide, {0} },
 	{ MODKEY,                       XK_semicolon,   scratchpad_remove,{0} },
