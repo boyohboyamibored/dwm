@@ -19,6 +19,8 @@ In order to build dwm you need the Xlib header files.
 
 ## Configuration
 
+Edit the colors section in `config.h` to match your `$HOME` directory.
+
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
 
