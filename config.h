@@ -18,7 +18,7 @@ static const char *fonts[]          = { "JetBrains Mono:size=12", "JoyPixels:pix
 static const char dmenufont[]       = "JetBrains Mono:size=12";
 
 /* colors */
-#include "/home/solar/.cache/wal/colors-wal-dwm.h"
+#include "/home/user/.cache/wal/colors-wal-dwm.h"
 
 /* tagging */
 static const char *tags[] = { "", "", "󰊠", "", "", "", "", "󰊖", "󰍹" };
